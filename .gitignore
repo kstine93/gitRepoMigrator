@@ -1,0 +1,8 @@
+#Where git repositories that need migration are downloaded into.
+/repos/**
+
+#Where SSH keys needed to access both the source and sink git remote repositories are kept:
+.ssh/**
+
+#Log files for the last run:
+/logs/**
